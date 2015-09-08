@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = QuadTree::VERSION
   spec.authors       = ["wolfram74"]
   spec.email         = ["phaugen@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "A general implementation for constructing quad trees in ruby"
+  spec.description   = "Accepts objects with x and y reader methods."
+  spec.homepage      = "https://phaugen-portfolio.herokuapp.com/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
